@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" onclick="document.getElementById('audio').play();">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACCESS DENIED</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="white">
     <div id="wrapper">
         <header>
             <h1 id="ad">ACCESS DENIED</h1>
@@ -24,7 +24,7 @@
 
             <img id="finger2" src="images/byuntear-meme.gif" alt="">
 
-            <h2 id="flono">🚫 FLORNIGOMBWIO SAYS NO 🚫</h2>
+            <h2 id="flono">FLORNIGOMBWIO SAYS NO</h2>
 
             <div class="no">
                 <img src="images/NO.gif" alt="">
@@ -47,11 +47,11 @@
             </div>
 
             <div id="decree">
-                <p class="flotext">Flornigombwio says you can't access this page yet.</p>
+                <p id="flotext1">Flornigombwio says you can't access this page yet.</p>
     
                 <img id="flo" src="images/flornigombwio.gif" alt="">
     
-                <p class="flotext">He must finish eating his pizza first.</p>
+                <p id="flotext2">He must finish eating his pizza first.</p>
             </div>
 
             <div class="no">
@@ -74,11 +74,9 @@
                 <img src="images/NO.gif" alt="">
             </div>
 
-            <audio src="audio/no no no no.mp3"
+            <audio id="audio" src="audio/no no no no.mp3"
             preload="auto"
-            controls
             autoplay
-            playsinline
             loop></audio>
         </main>
         <footer>

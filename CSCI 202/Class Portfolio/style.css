@@ -27,18 +27,19 @@ ul{
 ul a{
     color: blue;
 }
+main li{
+    line-height: 40px;
+    text-align: center;
+}
 a{
     text-decoration: none;
 }
 a h1{
     color: black;
 }
-.no{
-    display: flex;
-    justify-content: center;
-}
-.no img{
-    width: 100px;
+#white{
+    background-color: white;
+    color: black;
 }
 #ad{
     color: red;
@@ -47,29 +48,52 @@ a h1{
     position: absolute;
     width: 200px;
     top: 25px;
-    left: 130px;
+}
+#flono{
+    font-size: 50px;
+    color: blue;
 }
 #finger2{
     position: absolute;
     width: 200px;
-    top: 50px;
-    right: 150px;
+    top: 30px;
+    right: 25px;
+}
+.no{
+    display: flex;
+    justify-content: center;
+}
+.no img{
+    width: 100px;
 }
 #decree{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+}
+#flotext1{
+    flex: 2 1 0;
+    margin-left: 30px;
+    font-size: 40px;
+    line-height: 64px;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #flo{
+    flex: 1 1 0;
     margin-bottom: 30px;
     justify-content: center;
 }
-#flono{
-    font-size: 50px;
-}
-.flotext{
-    font-size: 30px;
+#flotext2{
+    flex: 2 1 0;
+    margin-right: 30px;
+    text-align: right;
+    font-size: 40px;
+    line-height: 64px;
     background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#about{
+    display: flex;
+    justify-content: center;
 }
