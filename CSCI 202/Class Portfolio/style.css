@@ -23,6 +23,7 @@ nav ul li{
 }
 ul{
     list-style-type: none;
+    padding: 0;
 }
 ul a{
     color: blue;
@@ -33,9 +34,27 @@ main li{
 }
 a{
     text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: white;
 }
 a h1{
-    color: black;
+    color: white;
+}
+#alex{
+    font-size: 75px;
+    margin-top: 200px;
+}
+.menu{
+    font-size: 40px;
+    margin-top: 125px;
+}
+.menu a{
+    line-height: 100px;
+}
+#assignments{
+
 }
 #white{
     background-color: white;
@@ -47,7 +66,7 @@ a h1{
 #finger1{
     position: absolute;
     width: 200px;
-    top: 25px;
+    top: 15px;
 }
 #flono{
     font-size: 50px;
